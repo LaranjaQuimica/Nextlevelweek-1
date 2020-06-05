@@ -16,11 +16,11 @@ function getCities(event) {
  const citySelect = document.querySelector("select[name=city]")
  const stateInput= document.querySelector("input[name=state]")
 
- const ufValue = event.target.value
-const indexOfSelectedState = event.target.selectedIndex
-stateInput.value = event.target.options[indexOfSelectedState]
+  const ufValue = event.target.value
+  const indexOfSelectedState = event.target.selectedIndex
+  stateInput.value = event.target.options[indexOfSelectedState].text
 
- const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${event.target.value}/municipios`
+  const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${event.target.value}/municipios`
 
  citySelect.innerHTML = "<option value>Selecione a Cidade</option> "
  citySelect.disabled = true

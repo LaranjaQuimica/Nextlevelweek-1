@@ -42,12 +42,10 @@ server.post("/savepoint", (req, res) => {
           req.body.image,
           req.body.name,
           req.body.address,
-          req.body.adress2,
+          req.body.address2,
           req.body.state,
           req.body.city,
           req.body.items
-
-
         ]
 
         function afterInsertData(err) {
