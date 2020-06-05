@@ -1,3 +1,3 @@
-![Logomarca](https://github.com/LaranjaQuimica/Nextlevelweek-1/blob/master/public/icones/logo.svg)
+<img src="https://github.com/LaranjaQuimica/Nextlevelweek-1/blob/master/public/icones/logo.svg" alt="Logo" width="50%" >
 # Ecoleta
-## Your waste collection marketplace.
+## Your waste collection marketplace
