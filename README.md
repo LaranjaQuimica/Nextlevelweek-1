@@ -25,7 +25,7 @@ This app features all the latest tools and practices in mobile development!
 4. Run `npm install nunjucks` to install dependencies<br/>
 
 ## Getting started with the backend server
-1. Run `npm start` and the server will start!
+1. Run `npm start` and the server will start in localhost:3000 
 
 ## License & copyright
 
